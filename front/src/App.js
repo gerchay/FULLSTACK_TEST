@@ -13,8 +13,18 @@ const App = () => {
 
   return(
     <>
-      <Header setTexts={ setTexts } />
-      <Results texts={texts} />
+      <div className="row">
+        <div className="col-md-12">
+          <Header setTexts={ setTexts } />
+        </div>
+      </div>
+      
+      <div className="row mt-5">
+        <div className="col-md-8 offset-2">
+          <Results texts={texts} />
+        </div>
+      </div>
+      
     </>
   )
 }

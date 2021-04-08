@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <App /> debe de mostrar <App /> correctamente 1`] = `
+<Fragment>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-12"
+    >
+      <Header
+        setTexts={[Function]}
+      />
+    </div>
+  </div>
+  <div
+    className="row mt-5"
+  >
+    <div
+      className="col-md-8 offset-2"
+    >
+      <Results
+        texts={Array []}
+      />
+    </div>
+  </div>
+</Fragment>
+`;
