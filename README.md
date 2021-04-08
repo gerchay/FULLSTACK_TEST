@@ -12,7 +12,7 @@ Para iniciar la aplicación con docker compose se escribe el siguiente comando e
 ```
 Al terminar de construir las imagenes se accede al navegador con la url *http://localhost:3000/*
 
-![alt-text](https://github.com/gerchay/FULLSTACK_TEST/blob/master/img/react-app.png)
+![alt-text](https://github.com/gerchay/FULLSTACK_TEST/blob/main/img/react-app.png)
 
 En la parte superior se encuentra un caja de texto y boton, al ingresar una palabra o un texto se tiene que presionar el boton, el texto sera procesado en la api y regresara el texto invertido y un verdadero o falso si la palabra o texto enviado es palindrome.
 
