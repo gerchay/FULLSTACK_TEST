@@ -15,7 +15,6 @@ export const Header = ({ setTexts = [] }) => {
       e.preventDefault();
       if ( inputValue.trim().length > 2 ) {
         const newText = await getTexts(inputValue)
-        console.log(newText)
         setTexts( cats => [ newText, ...cats, ] )
         setInputValue('')
       }else{
