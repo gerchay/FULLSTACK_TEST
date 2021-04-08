@@ -1,0 +1,24 @@
+version: "3"
+
+services: 
+    api:
+        container_name: api-toolbox
+        build: 
+            context: ./api
+            dockerfile: ./Dockerfile
+        image: "fullstack-test-backend"
+        restart: always
+        ports: 
+            - "5000:5000" 
+    front: 
+        container_name: front-toolBox
+        build: 
+            context: ./front
+            dockerfile: ./Dockerfile
+        image: "fullstack-test-frontend"
+        restart: always
+        ports: 
+            - "3000:3000"
+        links:
+            - "localhost:backend"
+    
