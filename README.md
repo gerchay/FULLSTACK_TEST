@@ -69,10 +69,16 @@ Para ambos servicio se utiliza una red llamada mern-app
 
 La apliación cuenta con diferentes tests realizados con mocha + chai + supertest. Los test van dirigidos hacía la petición GET /iecho, donde se comprueba que la api regrese un status 200 en caso de exito, regrese el texto invertido y que se regrese un verdadero o falso si el texto es palindrome. 
 Para realizar se escriben los siguientes comandos en la consola.
+Se necesita tener inicializado el servidor para correr el comando test, se recomiendo abrir dos terminales. 
 
 ``` 
     cd api
     npm install
+    npm start
+```
+
+``` 
+    cd api
     npm test
 ```
 
