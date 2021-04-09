@@ -2,6 +2,15 @@
 
 Full Stack JS - Code Challenge - Español
 
+- Demo de la aplicación: [FullStack_Test](http://18.223.115.36:3000/)
+
+---
+
+## DEMO
+
+El demo de la apliación se encuentra alojada en una EC2 de Amazon Web Service, con sistema operativo Ubuntu 20.4
+
+
 ---
 
 ## Iniciar Aplicación
